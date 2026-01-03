@@ -1,28 +1,50 @@
-# Student Performance Analysis
+# Student Performance Data Analysis using Python
 
-## Overview
-This project analyzes student performance data using Python.
+## 📌 Project Overview
+This project focuses on analyzing student performance data using Python.
+The goal is to understand how factors like study hours, sleep hours,
+previous scores, and extracurricular activities affect student performance.
 
-## Tools Used
+## 🧰 Tools & Libraries Used
 - Python
 - NumPy
 - Pandas
-- Google Colab
+- Jupyter Notebook / Google Colab
 
-## Dataset
-The dataset includes:
-- Hours Studied
-- Previous Scores
-- Extracurricular Activities
-- Sleep Hours
-- Sample Question Papers Practiced
-- Performance Index
+## 📂 Dataset
+- Student Performance Dataset (CSV file)
+- Contains information such as:
+  - Hours Studied
+  - Previous Scores
+  - Extracurricular Activities
+  - Sleep Hours
+  - Sample Question Papers Practiced
+  - Performance Index
 
-## Work Done
-- Loaded and explored dataset
-- Checked missing values
-- Performed data analysis
-- Saved cleaned data
+## 🔍 Steps Performed
+1. Imported required libraries
+2. Loaded the dataset using Pandas
+3. Explored data structure using `head()`, `info()`, and `describe()`
+4. Checked for missing values and duplicates
+5. Performed data analysis using:
+   - GroupBy
+   - Filtering
+   - Aggregations
+6. Derived insights from the data
 
-## Conclusion
-This project helped me understand data analysis using NumPy and Pandas.
+## 📊 Key Insights
+- Students with higher study hours tend to have better performance index
+- Sleep hours and extracurricular activities show impact on performance
+- Previous scores strongly influence final performance
+
+## 📁 Project Structure
+student-performance-analysis/
+│
+├── student_performance_analysis.ipynb
+├── student_performance.csv
+└── README.md
+
+🚀 Conclusion
+This project helped strengthen my understanding of data analysis
+using NumPy and Pandas and prepared me for further learning
+in data visualization and machine learning.
